@@ -26,11 +26,11 @@ class Driver:
 
     def run(self):
         """
-        Is the main routine for the driver.
+        This is the main routine for the driver.
 
-        Must be implement by the parent driver class.
+        The run method must be implement by the subclassed driver.
         """
-        raise NotImplementedError("run() function must be implemented by driver {} itself.".format(self.name))
+        raise NotImplementedError("run() function must be implemented by the driver {} itself.".format(self.name))
 
     def clean(self):
         """
